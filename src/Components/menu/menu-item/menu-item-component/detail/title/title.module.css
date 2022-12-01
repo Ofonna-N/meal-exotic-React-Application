@@ -1,0 +1,14 @@
+
+
+.title
+{
+    display:  flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.price
+{
+    /* color: green; */
+    font-weight: 600;
+}

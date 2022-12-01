@@ -1,0 +1,26 @@
+
+
+.menu
+{
+    margin-inline: auto;
+    margin-block: 1rem;
+    width: 60%;
+    padding: 1rem;
+    background-image: linear-gradient(to left, var(--secondary-color-2), 
+    var(--secondary-color));
+    box-shadow: 1px 1px 15px 1px;
+    border-radius: 5px;
+}
+
+.menu > h1
+{
+    text-align: center;
+}
+
+.menu hr
+{
+    border-style: none;
+    background-color: var(--primary-color);
+    padding: 1px;
+    margin-block: 2px;
+}

@@ -1,0 +1,18 @@
+
+
+.button
+{
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--primary-color-2);
+    background-image: linear-gradient(to right, var(--secondary-color), var(--secondary-color-2));
+}
+
+.button:hover
+{
+    --hover-color:#ff4e7a;
+    --hover-color-2:#fa90abd2;
+    background-image: linear-gradient(to right, var(--hover-color), var(--hover-color-2));
+
+}

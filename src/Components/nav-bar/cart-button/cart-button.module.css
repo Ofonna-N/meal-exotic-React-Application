@@ -1,0 +1,25 @@
+
+
+
+.cart-button
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:1rem;
+    
+}
+
+
+/* .cart-button */
+
+.cart-count
+{
+    background-color:  var(--secondary-color);
+    border-radius: 50px;
+    padding: 1px 5px;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: var(--primary-color-1);
+    font-size: small;
+}

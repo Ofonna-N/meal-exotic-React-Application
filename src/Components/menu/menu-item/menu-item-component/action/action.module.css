@@ -1,0 +1,38 @@
+
+.action
+{
+    display:  flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action input
+{
+    border-style: none;
+    border-radius: 5px;
+    padding-block: 0.25rem;
+    text-align: center;
+    color: var(--primary-color);
+    font-family: var(--main-font);
+    font-weight: bold;
+}
+
+.action .button
+{
+    --hover-color:#ee194e;
+    --hover-color-2:#ee5178d2;
+    padding: 0.25rem;
+    border-style: solid;
+    border-color: var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--primary-color);
+    background-image: linear-gradient(to right, var(--hover-color-2), var(--hover-color));
+}
+
+.action .button:hover
+{
+    --hover-color:#ff4e7a;
+    --hover-color-2:#fa90abd2;
+    background-image: linear-gradient(to left, var(--hover-color), var(--hover-color-2));
+}

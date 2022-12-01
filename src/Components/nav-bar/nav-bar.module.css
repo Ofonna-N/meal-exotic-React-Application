@@ -1,0 +1,22 @@
+
+.nav-bar
+{
+    /* height: 1rem; */
+    background-image: linear-gradient(to right, 
+    var(--secondary-color-2) 10%, var(--primary-color-2));
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10rem;
+    padding-block: 1rem;
+    position: relative;
+    /* box-shadow: 0 5px 15px 3px; */
+    /* z-index: 10000; */
+}
+
+.nav-bar > h1
+{
+    font-family: 'Pacifico', cursive;
+    color: var(--primary-color);
+}

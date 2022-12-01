@@ -1,0 +1,59 @@
+
+
+.cart-panel
+{
+    width: 40%;
+    padding: 0.5rem;
+    margin-inline: auto;
+    margin-top: 15%;
+    /* background-color: aliceblue; */
+    background-image: linear-gradient(to right, var(--secondary-color) 50%, var(--secondary-color-2));
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 3px black;
+    /* background-image: linear-gradient(to left, red, blue); */
+}
+
+.cart-panel > h2
+{
+    text-align: center;
+}
+
+
+.cart-panel > hr
+{
+    border-style: none;
+    padding: 1px;
+    background-color: var(--primary-color);
+    width: 70%;
+    margin-inline: auto;
+}
+
+.total
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.25rem;
+}
+
+.action
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    float: right;
+}
+
+.cart-panel .action button
+{
+    padding: 0.25rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.cart-panel .action button:hover
+{
+    color: white;
+}
